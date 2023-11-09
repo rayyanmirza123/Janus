@@ -1,0 +1,32 @@
+{
+
+	"requests": [
+		{
+			"uri" : "main",
+			"event" : {
+				"path" : "com.project.janus.main.controllers.MainController",
+				"invoke" : "index"
+			},
+			"response":[
+				{
+					"name" : "success",
+					"view" : "dashboard"
+				},
+				{
+					"name" : "error",
+					"view" : "dashboard"
+				}
+			]
+		}
+	
+	],
+	
+	"responses" : [
+	
+		{
+			"name" : "dashboard",
+			"location" : "main/common/main.ftl"
+		}	
+	]
+
+}

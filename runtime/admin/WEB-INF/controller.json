@@ -1,0 +1,32 @@
+{
+
+	"requests": [
+		{
+			"uri" : "",
+			"event" : {
+				"path" : "",
+				"invoke" : ""
+			},
+			"response":[
+				{
+					"name" : "success",
+					"view" : ""
+				},
+				{
+					"name" : "error",
+					"view" : ""
+				}
+			]
+		}
+	
+	],
+	
+	"responses" : [
+	
+		{
+			"name" : "",
+			"location" : ""
+		}	
+	]
+
+}
